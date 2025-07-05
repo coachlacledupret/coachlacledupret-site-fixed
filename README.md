@@ -1,3 +1,4 @@
+
 # Coach La Clé du Prêt - Site Web
 
 ## Solution Définitive pour Vercel
@@ -28,7 +29,8 @@ Ce projet a été créé pour résoudre définitivement les problèmes de déplo
 ├── package.json
 ├── next.config.js
 ├── tsconfig.json
-└── vercel.json
+├── tailwind.config.js
+└── postcss.config.js
 ```
 
 ### Installation
