@@ -1,21 +1,22 @@
-import HeroSection from './components/HeroSection'
-import AboutPreview from './components/AboutPreview'
-import ServicesPreview from './components/ServicesPreview'
-import TestimonialsSection from './components/TestimonialsSection'
-import LeadMagnet from './components/LeadMagnet'
-import BlogPreview from './components/BlogPreview'
-import CTASection from './components/CTASection'
+
+import HeroSection from '@/components/hero-section'
+import AboutSection from '@/components/about-section'
+import ServicesSection from '@/components/services-section'
+import LeadMagnet from '@/components/lead-magnet'
+import TestimonialsSection from '@/components/testimonials-section'
+import BlogPreview from '@/components/blog-preview'
+import ContactSection from '@/components/contact-section'
 
 export default function Home() {
   return (
     <div className="pt-20">
       <HeroSection />
-      <AboutPreview />
-      <ServicesPreview />
-      <TestimonialsSection />
+      <AboutSection />
+      <ServicesSection />
       <LeadMagnet />
+      <TestimonialsSection />
       <BlogPreview />
-      <CTASection />
+      <ContactSection />
     </div>
   )
 }
