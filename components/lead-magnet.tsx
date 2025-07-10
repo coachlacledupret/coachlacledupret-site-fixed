@@ -16,7 +16,7 @@ export default function LeadMagnet() {
   };
 
   return (
-    <section className="py-16 bg-blue-600">
+    <section id="lead-magnet" className="py-16 bg-blue-600">
       <div className="max-w-4xl mx-auto px-4">
         <Card className="bg-white shadow-xl">
           <CardHeader className="text-center">
